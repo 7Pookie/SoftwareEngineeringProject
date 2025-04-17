@@ -1,0 +1,109 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+#complaint-btn{
+    padding: 6px;
+    background-color: lightgreen;
+    color: black;
+    border-radius: 8px;
+    font-size: 14px;
+}
+
+/* Page Container */
+.container {
+    background-color: #2c2c2c;
+    color: white;
+    min-height: 100vh;
+}
+/* Content Section */
+.content {
+    padding: 40px;
+    background-color: #3a3a3a;
+    min-height: calc(100vh - 80px);
+}
+
+.content h2 {
+    font-size: 36px;
+    color: #4a73d9;
+    margin-bottom: 20px;
+}
+.parcel-section{
+    margin-top: 10px;
+}
+.parcel-section h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+}
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #e6e6e6;
+    border: 1px solid #ccc; /* <--- Add outer border */
+    /* Remove border-radius if it's making corners look odd */
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+
+.table-header {
+    background-color: #171414;
+}
+thead {
+    background-color: #4d4d4d;
+    color: white;
+}
+
+table th, table td {
+    padding: 15px;
+    text-align: left;
+    border: 1px solid #ccc;
+}
+
+
+table tbody tr {
+    background-color: white;
+    color: black;
+}
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    margin-left: 30px;
+}
+.cursor-hover{
+    cursor: pointer;
+}
+.clickable-parcel {
+    color: blue;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+
+  .complaint2_info{
+    display: block;
+  max-width: 50vw; /* 50% of viewport width */
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  white-space: normal;
+  }
+
+  .delete-complaint-button {
+    background-color: #4a73d9;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  
+  .delete-complaint-button:hover {
+    background-color: black;
+    size: 150%;
+  }

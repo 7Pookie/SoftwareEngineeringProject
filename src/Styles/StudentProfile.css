@@ -1,0 +1,47 @@
+.container {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #1c1c1c;
+    color: white;
+    font-family: Arial, sans-serif;
+  }
+  .profile-title {
+    font-size: 24px;
+    color: lightblue;
+    margin-bottom: 20px;
+  }
+  
+  .profile-section {
+    background-color: #e0e0e0;
+    padding: 20px;
+    border-radius: 10px;
+    color: black;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  td {
+    padding: 10px;
+    border-bottom: 1px solid gray;
+  }
+  
+  .edit-button {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  
+  .edit-button:hover {
+    background-color: gray;
+    size: 150%;
+  }
+  .complaints{
+    cursor: pointer;
+  }

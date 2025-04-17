@@ -1,0 +1,112 @@
+.container {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #1c1c1c;
+    color: white;
+    font-family: Arial, sans-serif;
+  }
+  .Logout-symbol{
+    width: 24px;
+    height: 24px;
+    background-image: url('../logout-svgrepo-com.svg');
+    background-size: cover;
+    cursor: pointer;
+    color: #000;
+    margin-right: 20px;
+}
+  .add-parcel-title{
+    justify-content: space-around;
+  }
+  .add-symbol {
+    width: 40px;
+    height: 40px;
+    background-image: url('../add-circle-svgrepo-com.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline block;
+    margin-bottom: 20px;
+    filter: brightness(0) saturate(100%) invert(28%) sepia(76%) saturate(2159%) hue-rotate(212deg) brightness(66%) contrast(95%);
+  }
+  /* Add Parcel Section */
+  .add-parcel-section {
+    background-color:#ffffff;
+    color: black;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .parcel-title2 {
+    
+    font-style: italic;
+    color: lightblue;
+    display: flex;
+    align-items: center;
+    gap:8px;
+  }
+  .parcel-title2 h2 {
+    margin: 0; /* Remove default margin */
+    padding: 0;
+    line-height: 1; /* Tighter vertical spacing */
+  }
+  .parcel-input{
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #1c1c1c;
+    background: transparent;
+    background-color: #e0e0e0;
+    margin-top: 3px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+  }
+
+  .parcel-description {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #1c1c1c;
+    background: transparent;
+    background-color: #e0e0e0;
+    margin-top: 3px;
+    margin-bottom: 15px;
+    resize: none; /* Prevents manual resizing */
+    overflow-y: hidden; /* Hides vertical scrollbar initially */
+    border-radius: 5px;
+}
+
+/* Automatically adjust height */
+.parcel-description:focus,
+.parcel-description:valid {
+    min-height: 80px; /* Set an initial height */
+    height: auto;
+}
+
+/* Prevents horizontal scrollbar */
+.parcel-description {
+    overflow-x: hidden;
+}
+
+/* Prevents vertical scrollbar */
+.parcel-description::-webkit-scrollbar {
+    display: none;
+}
+  
+.submit-button {
+    background-color: rgb(50, 102, 192);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+    width: 110px;
+  }
+  
+  .submit-button:hover {
+    background-color: rgb(0, 0, 0);
+    size: 150%;
+  }
+  .point-hover{
+    cursor: pointer;
+  }

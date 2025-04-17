@@ -1,0 +1,133 @@
+.container {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #1c1c1c;
+    color: white;
+    font-family: Arial, sans-serif;
+  }
+  .Logout-symbol{
+    width: 24px;
+    height: 24px;
+    background-image: url('../logout-svgrepo-com.svg');
+    background-size: cover;
+    cursor: pointer;
+    color: #000;
+    margin-right: 20px;
+}
+  /* Complaint Form Section */
+  .complaint-section {
+    background-color:#ffffff;
+    color: black;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .complaint-title {
+    font-size: 20px;
+    font-style: italic;
+    color: lightblue;
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid gray;
+    border-radius: 5px;
+  }
+  
+  .place-complaint-button {
+    background-color:black;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .place-complaint-button:hover {
+    background-color: #4d4c4c;
+  }
+  
+  /* Complaints Table */
+  .complaints-section {
+    background-color: #e0e0e0;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    color: black;
+  }
+
+  .complaint-section input[type="text"] {
+    width: 100%;
+    padding: 5px;
+    border:1px solid #1c1c1c;
+    background: transparent;
+    background-color: #e0e0e0;
+    margin-top: 3px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+  }
+  
+  .complaints-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .complaints-table td {
+    padding: 10px;
+    border-bottom: 1px solid gray;
+    text-align: left;
+    vertical-align: top;
+  }
+  
+  .complaints-table th {
+    padding: 10px;
+    border-bottom: 1px solid gray;
+    text-align: left;
+    background-color: #ccc;
+    width: 100%;
+  }
+  
+  /* .complaints-table td input {
+    width: 100%;
+    padding: 5px;
+    border: none;
+    background: transparent;
+  } */
+
+
+  .complaints-list > table > thead > tr > th {
+    background-color: black;
+  }
+  .complaint_info{
+    display: block;
+  max-width: 50vw; /* 50% of viewport width */
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  white-space: normal;
+  }
+
+  .complaint-description {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #1c1c1c;
+    background: transparent;
+    background-color: #e0e0e0;
+    margin-top: 3px;
+    margin-bottom: 15px;
+    resize: none; /* Prevents manual resizing */
+    overflow-y: hidden; /* Hides vertical scrollbar initially */
+    border-radius: 5px;
+}
+
+/* Automatically adjust height */
+.complaint-description:focus,
+.complaint-description:valid {
+    min-height: 50px; /* Set an initial height */
+    height: auto;
+}
+
+  
